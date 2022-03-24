@@ -1,0 +1,32 @@
+.card {
+  height: 400px;
+  width: 150px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 50px;
+  transition: all 0.4s;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &__title {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-white;
+    opacity: 0;
+  }
+}
+
+.card img {
+  // height: 400px;
+  // width: 400px;
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  // transform: translateX(-10px);
+}

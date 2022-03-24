@@ -1,0 +1,46 @@
+.card {
+  height: 400px;
+  width: 150px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 50px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.card:not(:last-child) {
+  margin-right: 10px;
+}
+
+.card__title {
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0;
+}
+
+.card img {
+  height: 400px;
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  padding: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=main.css.map */
